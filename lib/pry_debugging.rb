@@ -1,3 +1,5 @@
 def plus_two(num)
-  puts "#{num}.to_s" + 2
+    num + 2
+    num
+    binding.pry
 end
